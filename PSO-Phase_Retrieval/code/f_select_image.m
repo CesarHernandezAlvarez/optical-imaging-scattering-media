@@ -36,10 +36,6 @@ function [image_0, fig, distance, exposure] = f_select_image(im)
         '/MATLAB Drive/Images/l10-40-td.bmp', 'Lines', 10, 40;
         '/MATLAB Drive/Images/l10-45-td.bmp', 'Lines', 10, 45;
         '/MATLAB Drive/Images/l10-50-td.bmp', 'Lines', 10, 50;
-        '/MATLAB Drive/Images/N5_gt.tiff', 'Number5', 'N/A', 'N/A';
-        '/MATLAB Drive/Images/LR_gt.tiff', 'LetterR', 'N/A', 'N/A';
-        '/MATLAB Drive/Images/Resized-GT-Dots.png', 'DotsThesis', 'N/A', 'N/A';
-        '/MATLAB Drive/Images/Resized-GT-Lines.png', 'LinesThesis', 'N/A', 'N/A';
     };
     
     if im > 0 && im <= size(images, 1)
